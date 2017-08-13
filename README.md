@@ -6,10 +6,12 @@ adds a title-bar with the discord Logos in it on the left.
 
 ### Update #1 v0.0.3
 
-Fixed backgrounds on :
+Fixed backgrounds on :				
 
  -user parametters
+ 
  -friends list
+ 
  -"public" BD menu
  
 Scaled up chat font to make it more readable.
