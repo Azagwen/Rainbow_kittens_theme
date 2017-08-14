@@ -203,7 +203,7 @@ html, span:not(.spinner-item)
 
 .message-group .comment .markup
 {
-	color: rgba(var(--Color-blue), 1);
+    color: white !important;
 	font-size: 1.1rem ;
 	font-weight: 500;
 	opacity:2;
