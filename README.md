@@ -18,7 +18,7 @@ Scaled up chat font to make it more readable.
 
 ### Update #2 v0.0.4
 
-Made images semi transrent in the chat area.
+Made images semi transparent in the chat area.
 
 Changed Invitations style to a more smooth and less gray style. Like Below
 
