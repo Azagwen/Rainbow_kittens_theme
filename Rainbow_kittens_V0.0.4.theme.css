@@ -1,4 +1,4 @@
-/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.0.3" } *// {}
+/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.0.4" } *// {}
 
 /* App Background */
 /* settings */
@@ -6,12 +6,14 @@
   --rainbow-anim: rainbow 30s infinite linear;
   --background-overlay: rgba(0,0,0, 0.7);
   /* Colors */
-	/* Blue */
+	/* Main */
   --Color-blue: 133,160,255;
   --Color-blue-dark: 13,16,25;
   --Color-blue-darker: 26,32,50;
 	/* Others */
-  --Color-red: 255,133,160;
+  --Color-red-less-dark: 50,16,26;
+  --Color-red-dark: 25,16,13;
+  --Color-red: 255,160,133;
   --Color-green: 160,255,133;
 }
 
@@ -158,7 +160,23 @@ html, span:not(.spinner-item)
 {
 	background-color: transparent;
 }
-
+/* Images */
+.message-group .image {
+    vertical-align: bottom;
+    max-width: 520px;
+    opacity: 0.7;
+}
+.message-group .image:hover {
+    vertical-align: bottom;
+    max-width: 520px;
+    opacity: 1;
+}
+/* Invitations */
+.message-group .invite-button {
+    background-color: rgba(var(--Color-blue-darker),0.5);
+    border-color: rgba(var(--Color-blue),1);
+	border-radius: 50px;
+}
 /* User list area */
 	/* Background */
 .channel-members 
