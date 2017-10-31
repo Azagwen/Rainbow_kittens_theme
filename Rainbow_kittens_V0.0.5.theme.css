@@ -148,7 +148,7 @@ html, span:not(.spinner-item)
 	background: url(https://orig05.deviantart.net/82f0/f/2017/211/3/d/untitled_drawing_by_azagwen-dbi9s7d.png);
 	background-position: 50%;
 	background-size: cover;
-	left: 0; top: -35px;
+	left: 0; top: 0px;
 	width: 100vw;
 	height: 100vh;
 }
