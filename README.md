@@ -32,4 +32,11 @@ Work in progress Modification in the parametters.
 
 ![Preview](http://orig15.deviantart.net/8194/f/2017/210/c/e/rbkt_by_azagwen-dbi5tko.gif)
 
+### Update #4 V0.0.6
+
+Theme menu finished
+
+Search bars, writing area, text editing area, user pop-out, user research menu and invitations now has a similar skin to fit with the theme's general style.
+
+corrected the big blue boxes on draggable admin channels to be smooth dashed outline tha fit the channel's size.
 
