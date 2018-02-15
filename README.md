@@ -40,7 +40,7 @@ Search bars, writing area, text editing area, user pop-out, user research menu a
 
 corrected the big blue boxes on draggable admin channels to be smooth dashed outline tha fit the channel's size.
 
-### Update #4 V0.0.7
+### Update #5 V0.0.7
 
 Bug fixes and Background corrections.
 
