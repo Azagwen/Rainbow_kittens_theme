@@ -44,4 +44,14 @@ corrected the big blue boxes on draggable admin channels to be smooth dashed out
 
 Bug fixes and Background corrections.
 
+### Update #6 V0.0.8
+
+Newer version fix
+
+### Update #7 V0.0.9
+
+Newer version fixes, Added new animations on many buttons when they are clicked or hovered to make the theme style more consistant.
+
+
+
 
