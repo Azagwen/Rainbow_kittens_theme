@@ -54,6 +54,8 @@ Newer version fixes, Added new animations on many buttons when they are clicked 
 
 ![Preview](https://i.gyazo.com/6717dc9d35a3ab2cd8e52a219f338645.gif)
 
+![Preview](https://i.gyazo.com/27dd757a84b4a89defb3280a23252131.gif)
+
 
 
 
