@@ -52,6 +52,8 @@ Newer version fix
 
 Newer version fixes, Added new animations on many buttons when they are clicked or hovered to make the theme style more consistant.
 
+![Preview](https://i.gyazo.com/6717dc9d35a3ab2cd8e52a219f338645.gif)
+
 
 
 
