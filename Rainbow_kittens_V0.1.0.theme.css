@@ -1,4 +1,4 @@
-/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.0.9" } *// {}
+/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.1.0" } *// {}
 
 /* App Background */
 	/* settings */
@@ -549,28 +549,59 @@ html, span:not(.spinner-item)
     opacity: 1;
 }
 /* Invitations */
-.message-group .invite-button 
+	/* Main background */
+.theme-dark .wrapper-35wsBm 
 {
-    background-color: rgba(var(--Color-blue),0.1);
-	border: 2px dashed;
-    border-color: rgba(var(--Color-blue),0.5);
-	border-radius: 35px;
+    background: rgba(var(--Color-blue), 0.1);
+    border: 2px solid;
+    border-radius: 60px;
+    border-color: rgba(var(--Color-blue), 0.3);
 }
-	/*new invitations*/
-.theme-dark .wrapper-uAa07y
+	/* Icon */
+		/* Normal */
+.theme-dark .guildIconImage-3qTk45 
 {
-    background: rgba(var(--Color-blue),0.1);
-    border: 2px dashed;
-    border-color: rgba(var(--Color-blue),0.5);
-    border-radius: 70px;
-}
-.buttonOutlined-38aLSW
-{
-    -webkit-transition: color .17s ease,background-color .17s ease,border-color .17s ease;
-    border-style: solid;
-    border-width: 2px;
-    transition: color .17s ease,background-color .17s ease,border-color .17s ease;
+	-webkit-transition: 0.5s ease;
     border-radius: 35px;
+    transform: translate(10px, -10px);
+}
+		/* Hover */
+.theme-dark .guildIconImage-3qTk45:hover 
+{
+	-webkit-transition: 0.5s cubic-bezier(0.32,-0.74,0.36,1.71);
+	transform: translate(10px, -10px) scale(1.25, 1.25);
+}
+	/* Details */
+.theme-dark .guildDetail-1nRKNE 
+{
+    transform: translate(34px, -22.5px) scale(1.15, 1.15);
+}
+	/* Button */
+.theme-dark .lookOutlined-3sRXeN
+.colorPrimary-3b3xI6 
+{
+    border: 2px dashed;
+    border-color: rgba(var(--Color-blue), 0.5);
+    border-radius: 35px;
+    background: rgba(var(--Color-blue), 0.1);
+    transform: translate(-13px, -11px);
+}
+.theme-dark .lookOutlined-3sRXeN
+.colorPrimary-3b3xI6:hover 
+{
+    border-color: rgba(var(--Color-blue), 1);
+    background: rgba(var(--Color-blue), 0.35);
+}
+	/* Hide */
+		/* Hide name */
+.theme-dark .guildName-2hvnt_ 
+{
+    transform: scale(0, 0);
+}
+		/* Hide Title */
+.theme-dark .h5-18_1nd 
+{
+    transform: scale(0, 0);
 }
 /* User list area */
 	/* Background */
