@@ -56,6 +56,12 @@ Newer version fixes, Added new animations on many buttons when they are clicked 
 
 ![Preview](https://i.gyazo.com/27dd757a84b4a89defb3280a23252131.gif)
 
+### Update #8 V0.1.0
+
+Updated invitations with a new and stylized look according to the theme's chart.
+
+![Preview](https://orig00.deviantart.net/e44a/f/2018/147/2/b/inv_prev_by_azagwen-dcco27p.png)
+
 
 
 
