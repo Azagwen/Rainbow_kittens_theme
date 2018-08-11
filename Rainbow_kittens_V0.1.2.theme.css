@@ -24,6 +24,11 @@
   --Box-AC-0:, 0.1;
   --Box-AC-1:, 0.5;
   --Box-AC-2:, 0.7;
+	/* Border radiuses */
+		/* 0 = Thin 1 = larger 2 = Largest */
+  --Radius-0:3px;
+  --Radius-1:6px;
+  --Radius-2:35px;
 }
 
 	/* wallpaper */
@@ -785,7 +790,11 @@ html, span:not(.spinner-item)
 }
 
 /* Connecting screen */
-.connecting
+.appMount-3VJmYg
+{
+	background: transparent;
+}
+.container-16j22k
 {
 	background: url(https://orig05.deviantart.net/82f0/f/2017/211/3/d/untitled_drawing_by_azagwen-dbi9s7d.png);
 	animation: var(--rainbow-anim);
@@ -1184,16 +1193,26 @@ chat area encoding
 
 	/* Add server button */
 		/* Default */
-.guilds-wrapper .guilds-add 
+.theme-dark .guildsAdd-21_IdK
 {
+	-webkit-transition: 0.25s ease;
 	background-color:transparent;
-	border-color: rgba(var(--Color-blue), 0.25);
-	color: rgba(var(--Color-blue), 0.25);
+	border-color: rgba(var(--Color-blue), 1);
+	color: rgba(var(--Color-blue), 1);
 	animation: var(--rainbow-anim);
 }
-.guilds-wrapper .guilds-add:hover 
-{
-	background-color: rgba(var(--Color-blue-darkerer), 0.5);
+.theme-dark .guildsAdd-21_IdK:hover
+{	
+	-webkit-transition: 0.25s ease;
+	background-color: rgba(var(--Color-blue)var(--Box-AC-0));
+	border-color: rgba(var(--Color-blue), 1);
+	color: rgba(var(--Color-blue), 1);
+}
+
+.theme-dark .guildsAdd-21_IdK:active
+{	
+	-webkit-transition: 0.25s ease;
+	background-color: rgba(var(--Color-blue)var(--Box-AC-1));
 	border-color: rgba(var(--Color-blue), 1);
 	color: rgba(var(--Color-blue), 1);
 }
