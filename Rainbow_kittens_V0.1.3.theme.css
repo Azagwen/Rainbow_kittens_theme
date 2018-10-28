@@ -1,4 +1,4 @@
-/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.1.2" } *// {}
+/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.1.3" } *// {}
 
 /* App Background */
 	/* settings */
@@ -72,6 +72,34 @@ html, span:not(.spinner-item)
 	/* fix not having a background image anymore */
 .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ {
     background: var(--background-overlay) !important;
+}
+
+	/* Transparent Backgrounds */
+.theme-dark .layer, .theme-dark .layers, .layers, .layer,
+.theme-dark .guildsWrapper-5TJh6A,
+.layers .layer #friends .friends-header,
+.theme-dark .private-channel-call, .private-channel-call,
+.theme-dark .ui-video, .ui-video,
+.theme-dark .friends-table, 
+.theme-dark .messagesWrapper-3lZDfY,
+.theme-dark #friends,
+.theme-dark .layers, .layers,
+.theme-dark .title-3qD0b-,
+.channels-Ie2l6A, .container-PNkimc,
+.theme-dark .chat-3bRxxu,
+.theme-dark .chat-3bRxxu form,
+.theme-dark .content-yTz4x3,
+.theme-dark .divider-3gKybi span,
+.theme-dark .noChannel-Z1DQK7,
+.channels-wrap,.container-2lgZY8,  
+.theme-dark .members-1998pB,
+.video-1kutKI,
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .header-39GIC8, 
+.shine-2f1uEU, .shineInner-fWUhvE     
+{
+	background: transparent;
 }
 
 /* Games tab */
@@ -149,6 +177,34 @@ html, span:not(.spinner-item)
     border-color: rgba(var(--Color-blue)var(--Box-AB-0));
 }
 
+/* News tab */
+	/* Caroussel Item */
+.carouselItem-3UIHqv,
+.theme-dark .itemBackground-1jfD8p,
+.carouselContainer-1KvOK0,
+.theme-dark .itemBackground-1jfD8p:before 
+{
+		border-radius: var(--Radius-2);
+}
+.theme-dark .itemBackground-1jfD8p:before 
+{
+    background: rgba(var(--Color-blue-dark)var(--Box-AC-1));
+}
+	/* Titles */
+		/* Normal */
+.tile-367QuY, .tileWrapper-2khh-w
+{
+		border-radius: var(--Radius-2);
+}
+.theme-dark .tileWrapper-2khh-w
+{
+		background: rgba(var(--Color-blue-dark)var(--Box-AC-1));
+}
+		/* Hovered */
+.theme-dark .tileWrapper-2khh-w:hover
+{
+		background: rgba(var(--Color-blue)var(--Box-AC-1));
+}
 /* All Channels */
 	/* Server Channels */
 		/* Default */
@@ -706,7 +762,7 @@ html, span:not(.spinner-item)
 }
 	/* Friends row Buttons */
 .theme-dark #friends .friends-table 
-.friends-row:hover 
+.friends-row:hover, .rowWrapper-2fB6P0:hover 
 {
     border-radius: 35px;
     background: rgba(var(--Color-blue),0.2);
@@ -874,27 +930,6 @@ html, span:not(.spinner-item)
 	background-color: transparent !important;
 }
 
-.theme-dark .layer, .theme-dark .layers, .layers, .layer,
-.theme-dark .guildsWrapper-5TJh6A,
-.layers .layer #friends .friends-header,
-.theme-dark .private-channel-call, .private-channel-call,
-.theme-dark .ui-video, .ui-video,
-.theme-dark .friends-table, 
-.theme-dark .messagesWrapper-3lZDfY,
-.theme-dark #friends,
-.theme-dark .layers, .layers,
-.theme-dark .title-3qD0b-,
-.channels-Ie2l6A, .container-PNkimc,
-.theme-dark .chat-3bRxxu,
-.theme-dark .chat-3bRxxu form,
-.theme-dark .content-yTz4x3,
-.theme-dark .divider-3gKybi span,
-.theme-dark .noChannel-Z1DQK7,
-.channels-wrap,.container-2lgZY8,  
-.theme-dark .members-1998pB     
-{
-	background: transparent;
-}
 
 /* Game preview */
 .popout-3sVMXz 
@@ -945,7 +980,8 @@ html, span:not(.spinner-item)
 	/* Friend list */
 		/* Friends row */
 .theme-dark #friends .friends-table 
-.friends-row
+.friends-row, .rowWrapper-2fB6P0,
+.rowBackground-3MeNoN
 {
     background: transparent;
     border-radius: 35px;
@@ -1269,21 +1305,21 @@ chat area encoding
 	opacity:.5;
     color:rgba(255,255,255,1);
 }
-.private-channels .channel a
+.channel-2QD9_O a
 {
 	-webkit-transition: 0.25s ease-in-out;
 	background-color: rgba(var(--Color-blue)var(--Box-AC-0));
     border-radius: 35px;
 }
 	/* Hovered */
-.private-channels .channel:hover a
+.channel-2QD9_O:hover a
 {
 	-webkit-transition: 0.25s ease-in-out;
 	background-color: rgba(var(--Color-blue)var(--Box-AC-1));
     border-radius: 6px;
 }
 	/* Selected */
-.private-channels .channel.selected a 
+.channel-2QD9_O.selected-1HYmZZ a
 {
 	-webkit-transition: 0.5s ease-in-out;
 	background-color: rgba(var(--Color-blue)var(--Box-AC-2));
