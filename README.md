@@ -62,6 +62,11 @@ Updated invitations with a new and stylized look according to the theme's chart.
 
 ![Preview](https://orig00.deviantart.net/e44a/f/2018/147/2/b/inv_prev_by_azagwen-dcco27p.png)
 
+### Update #11 V0.1.3
+
+New tabs fixed.
+
+Private channels buttons fixed.
 
 
 
