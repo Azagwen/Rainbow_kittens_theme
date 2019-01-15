@@ -32,7 +32,7 @@
 }
 
 	/* wallpaper */
-.app:before 
+#app-mount:before 
 { 
 	background: url(https://img07.deviantart.net/594b/i/2017/208/0/c/cat_wallpaper_discord_by_azagwen-dbhvtdi.png);
 }
@@ -44,7 +44,7 @@ html, span:not(.spinner-item)
 }
 
 /* Main background and settings background */
-.app:before 
+#app-mount:before 
 {
 	background-position: 50%;
 	background-size: cover;
@@ -97,7 +97,8 @@ html, span:not(.spinner-item)
 .theme-dark .applicationStore-1pNvnv,
 .theme-dark .gameLibrary-TTDw4Y,
 .theme-dark .header-39GIC8, 
-.shine-2f1uEU, .shineInner-fWUhvE     
+.shine-2f1uEU, .shineInner-fWUhvE,
+.appMount-3lHmkl
 {
 	background: transparent;
 }
