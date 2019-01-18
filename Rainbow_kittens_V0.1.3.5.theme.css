@@ -103,6 +103,15 @@ html, span:not(.spinner-item)
 	background: transparent;
 }
 
+/* Home icon */
+#app-mount .homeIcon-1FoKUJ 
+{
+background: url('https://azagwen.github.io/Rainbow_kittens_theme/assets/Discord-Logo-cat-alpha.svg');
+color: rgba(0,0,0,0);
+background-position: center;
+background-size: cover;
+}
+
 /* Games tab */
 	/* Articles */
 .smallCarousel-3UDi9v
@@ -524,7 +533,7 @@ html, span:not(.spinner-item)
     border-radius: 35px;
     background: rgba(var(--Color-red)var(--Box-AC-2));
 }
-.theme-dark .denySelected-1mh2mZ:over
+.theme-dark .denySelected-1mh2mZ:hover
 {
 	-webkit-transition: 0.25s ease;
     border-radius: 35px;
@@ -1070,18 +1079,17 @@ html, span:not(.spinner-item)
 }
 
 /* search bars */
-.theme-dark .search .search-bar {
-    background-color: rgba(var(--Color-blue), 0.1);
-	border:var(Button-border);
-	border-color: rgba(var(--Color-blue),0.5);
-    border-radius: 35px;
-}
-.search-bar .search-bar-inner
+.searchBar-2_Yu-C
 {
-	background-color: rgba(var(--Color-blue), 0.1);
-    border:var(Button-border);
-    border-radius: 35px;
-    border-color: rgba(var(--Color-blue), 0.5);
+	background: transparent;
+}
+.searchBar-2_Yu-C .searchBarInner-1_Tg2R,
+.theme-dark .search-2oPWTC .searchBar-3dMhjb
+{	
+	background: rgba(var(--Color-blue)var(--Box-AC-0));
+    border: var(--Box-border);
+    border-radius: var(--Radius-2);
+    border-color: rgba(var(--Color-blue)var(--Box-AB-0));
 }
 /* Chat area */
 	/* Typing indicator */
