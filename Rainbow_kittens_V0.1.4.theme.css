@@ -1,4 +1,4 @@
-/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.1.3.5" } *// {}
+/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.1.2" } *// {}
 
 /* App Background */
 	/* settings */
@@ -75,30 +75,23 @@ html, span:not(.spinner-item)
 }
 
 	/* Transparent Backgrounds */
-.theme-dark .layer, .theme-dark .layers, .layers, .layer,
-.theme-dark .guildsWrapper-5TJh6A,
-.layers .layer #friends .friends-header,
-.theme-dark .private-channel-call, .private-channel-call,
-.theme-dark .ui-video, .ui-video,
-.theme-dark .friends-table, 
-.theme-dark .messagesWrapper-3lZDfY,
-.theme-dark #friends,
-.theme-dark .layers, .layers,
-.theme-dark .title-3qD0b-,
-.channels-Ie2l6A, .container-PNkimc,
-.theme-dark .chat-3bRxxu,
-.theme-dark .chat-3bRxxu form,
+.container-2lgZY8,
+.theme-dark .wrapper-1Rf91z,
+.channels-Ie2l6A,
+.theme-dark .chat-3bRxxu, 
+.theme-dark .chat-3bRxxu form, 
 .theme-dark .content-yTz4x3,
-.theme-dark .divider-3gKybi span,
-.theme-dark .noChannel-Z1DQK7,
-.channels-wrap,.container-2lgZY8,  
-.theme-dark .members-1998pB,
-.video-1kutKI,
-.theme-dark .applicationStore-1pNvnv,
+.theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .gameLibrary-TTDw4Y,
-.theme-dark .header-39GIC8, 
-.shine-2f1uEU, .shineInner-fWUhvE,
-.appMount-3lHmkl
+.theme-dark .header-39GIC8,
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .container-3gCOGc,
+.theme-dark .standardSidebarView-3F1I7i,
+.theme-dark .contentRegion-3nDuYy,
+.theme-dark .sidebarRegion-VFTUkN,
+.container-PNkimc,
+.theme-dark .members-1998pB,
+.theme-dark .typing-2GQL18 
 {
 	background: transparent;
 }
@@ -792,20 +785,28 @@ background-size: cover;
     border-color: rgba(var(--Color-red)var(--Box-AB-1)) !important;
 }
 	/* Friends list actions Buttons */
-.theme-dark #friends .friends-table .friends-row 
-.friends-column-actions .friends-action 
+		/* Green */
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud 
+.friendsColumnActions-1LT3_M .friendsAction-__WNE9
 {
     border:var(--Box-border);
 	border-radius: 35px;
     background-color: rgba(var(--Color-blue),0.2);
     border-color: rgba(var(--Color-blue)var(--Box-AB-0));
 }
-.theme-dark #friends .friends-table .friends-row 
-.friends-column-actions .friends-action:hover 
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud 
+.friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover
 {
     border:var(--Box-border);
     background-color: rgba(var(--Color-green),0.5);
     border-color: rgba(var(--Color-green)var(--Box-AB-1));
+}
+		/* Red */
+.friendsActionRemove-qu8nnl:hover
+{
+    border:var(--Box-border);
+    background-color: rgba(var(--Color-red),0.5) !important;
+    border-color: rgba(var(--Color-red)var(--Box-AB-1)) !important;
 }
 /* Buttons END */
 
@@ -863,7 +864,7 @@ background-size: cover;
 .container-16j22k
 {
 	background: url(https://orig05.deviantart.net/82f0/f/2017/211/3/d/untitled_drawing_by_azagwen-dbi9s7d.png);
-	animation: var(--rainbow-anim);
+
 }
 
 /* user Profile popout */
@@ -1092,11 +1093,6 @@ background-size: cover;
     border-color: rgba(var(--Color-blue)var(--Box-AB-0));
 }
 /* Chat area */
-	/* Typing indicator */
-.theme-dark .typing-2GQL18 
-{
-    background-color: transparent;
-}
 	/* Typing area */
 .innerNoAutocomplete-1WpcVO 
 {
