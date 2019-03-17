@@ -1,4 +1,4 @@
-/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.1.4" } *// {}
+/* //META { "name": "Rainbow_Kitten", "description": "Rainbow kittens desu ! ;3 made with square's help", "author": "アザグエン", "version": "0.1.4.5" } *// {}
 
 /* App Background */
 	/* settings */
@@ -91,7 +91,8 @@ html, span:not(.spinner-item)
 .theme-dark .sidebarRegion-VFTUkN,
 .container-PNkimc,
 .theme-dark .members-1998pB,
-.theme-dark .typing-2GQL18 
+.theme-dark .typing-2GQL18,
+.theme-dark .pageWrapper-1PgVDX 
 {
 	background: transparent;
 }
@@ -1085,7 +1086,8 @@ background-size: cover;
 	background: transparent;
 }
 .searchBar-2_Yu-C .searchBarInner-1_Tg2R,
-.theme-dark .search-2oPWTC .searchBar-3dMhjb
+.theme-dark .search-2oPWTC .searchBar-3dMhjb,
+.theme-dark .searchBox-3Y2Vi7
 {	
 	background: rgba(var(--Color-blue)var(--Box-AC-0));
     border: var(--Box-border);
