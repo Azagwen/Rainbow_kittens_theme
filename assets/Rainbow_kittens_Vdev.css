@@ -779,11 +779,17 @@ html, span:not(.spinner-item)
 	margin: 4px 20px;
 	padding: 16px 10px;
 }
-		/* action call */
+.friendsTable-133bsv .friendsRow-2yicud:hover .friendsColumnActions-1LT3_M
+{
+	padding-right: none;
+}
+		/* Friend action green  */
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
 .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
-.friendsAction-__WNE9.friendsActionVideoCall-2_PKeP
+.friendsAction-__WNE9.friendsActionVideoCall-2_PKeP,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
+.friendsAction-__WNE9.friendsActionAccept-3mkemT
 {
 	background-color: rgba(var(--Color-green)var(--Box-AC-0));
 	border: 2px dashed;
@@ -793,16 +799,22 @@ html, span:not(.spinner-item)
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
 .friendsAction-__WNE9.friendsActionVoiceCall-3EdPsR:hover,
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
-.friendsAction-__WNE9.friendsActionVideoCall-2_PKeP:hover
+.friendsAction-__WNE9.friendsActionVideoCall-2_PKeP:hover,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
+.friendsAction-__WNE9.friendsActionAccept-3mkemT:hover
 {
-	background-color: rgba(var(--Color-green)var(--Box-AC-1));
+	background-color: rgba(var(--Color-green)var(--Box-AC-1)) !important;
 	border: 2px dashed;
 	border-color: rgba(var(--Color-green)var(--Box-AB-1));
 	border-radius: var(--Radius-2);	
 }
-		/* action remove */
+		/* Action red*/
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
-.friendsAction-__WNE9.friendsActionRemove-qu8nnl
+.friendsAction-__WNE9.friendsActionRemove-qu8nnl,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
+.friendsAction-__WNE9.friendsActionCancel-3AP4ex,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
+.friendsAction-__WNE9.friendsActionIgnore-1-RPlq
 {
 	background-color: rgba(var(--Color-red)var(--Box-AC-0));
 	border: 2px dashed;
@@ -810,7 +822,11 @@ html, span:not(.spinner-item)
 	border-radius: var(--Radius-2);
 }
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
-.friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover
+.friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover,
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
+.friendsAction-__WNE9.friendsActionCancel-3AP4ex:hover, 
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M 
+.friendsAction-__WNE9.friendsActionIgnore-1-RPlq:hover
 {
 	background-color: rgba(var(--Color-red)var(--Box-AC-1)) !important;
 	border: 2px dashed;
