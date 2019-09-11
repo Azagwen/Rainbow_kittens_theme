@@ -574,7 +574,8 @@ html, span:not(.spinner-item)
 	border-radius: var(--Radius-2);
 }
 .card-3EIh8J:hover .shareButton-3w0M74,
-.card-3EIh8J .shareButton-3w0M74
+.card-3EIh8J .shareButton-3w0M74,
+.unread-1xRYoj
 {
 	-webkit-transition: 0.25s ease-in-out;
 	background: rgba(var(--Color-green-dark)var(--Box-AC-2));
@@ -585,7 +586,8 @@ html, span:not(.spinner-item)
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover,
 .theme-dark .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover, 
 .theme-light .lookFilled-1Gx00P.hoverGreen-1gjdJc.hasHover-3X1-zV:hover,
-.card-3EIh8J:hover .shareButton-3w0M74:hover
+.card-3EIh8J:hover .shareButton-3w0M74:hover,
+.unread-1xRYoj:hover
 {
 	-webkit-transition: 0.25s ease-in-out;
 	background: rgba(var(--Color-green)var(--Box-AC-1));
