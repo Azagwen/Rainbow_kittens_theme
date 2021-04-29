@@ -1,3 +1,10 @@
+/**
+* @name RainbowKittensTheme
+* @Version Auto
+* @description Just a simple theme to have rainbow kittens
+* @website https://github.com/Azagwen/Rainbow_kittens_theme
+*/
+
 /* App Background */
 	/* settings */
 :root {
@@ -148,7 +155,7 @@ html, span:not(.spinner-item)
     --channeltextarea-background: transparent;
     --activity-card-background: transparent;
     --deprecated-panel-background: transparent;
-    --deprecated-card-bg: transparent);
+    --deprecated-card-bg: transparent;
     --deprecated-card-editable-bg: transparent;
     --deprecated-store-bg: transparent;
     --deprecated-quickswitcher-input-background: #72767d;
